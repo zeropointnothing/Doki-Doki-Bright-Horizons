@@ -2,7 +2,7 @@ label mod_script:
     scene bg black_bg
     stop music
     "Note: This mod was a mere test of skills. Do not expect it to be super complicated or amazing."
-    "I do not own, or claim to own any assets of DDLC. The only things that belong to me are inside the \"mod_assets\" folder with a few exceptions,"
+    "I do not own, or claim to own any assets of DDLC. The only things that belong to me are inside the \"mod_assets\" folder with a few exceptions."
     "This was just for fun, and I hope you can enjoy this as much as I did making it."
     "Have fun, [player]!"
     pause 1
@@ -65,6 +65,6 @@ label not_fns:
     scene bg black_bg
     stop music
     "Unfortunately, you have reached the current end of the script."
-    "I am actively working on this, however, so feel free to check the GitHub and update this occasionally!"
+    "I am actively working on this, however, so feel free to check my website and update this occasionally!"
     
     $ renpy.quit()
