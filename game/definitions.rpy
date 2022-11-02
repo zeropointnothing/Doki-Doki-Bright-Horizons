@@ -223,8 +223,8 @@ image glitch_color2:
 #Custom Assets
 
 image bg black_bg = "mod_assets/black_screen.png"
-image bg park_outside = "mod_assets/park_outside"
-image bg park_path = "mod_assets/park_path"
+image bg park_outside = "mod_assets/park_outside.png"
+image bg park_path = "mod_assets/park_path.png"
 image chp1 = "mod_assets/chp1img.png"
 
 
