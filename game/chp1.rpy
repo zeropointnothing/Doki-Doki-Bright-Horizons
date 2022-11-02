@@ -19,7 +19,7 @@ label chp1:
     show sayori 1bp at s11 zorder 2
     s "I hit my nose..."
     mc "You really need to be more careful..."
-    show sayori 1bl at t11 zorder 2
+    show sayori 1bl
     s "You're not even gonna comfort me...?"
     mc "Sayori, you're not a child."
     show sayori 1bg at t11 zorder 2

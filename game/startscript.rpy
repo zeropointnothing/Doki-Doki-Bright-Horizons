@@ -14,7 +14,7 @@ label mod_script:
     mc "What time is it..."
     "I check the clock to see that it is 9:32. I would then begin to panic, only to quickly see the word \"Sunday\"."
     "I then see my phone screen light up and several notifications."
-    "A few of them from my friend Sayori."
+    "A few of them from my Sayori."
     mc "I should probably check those before she breaks down my door..."
     "I roll over on my bed to reach my phone. Grabbing it, I turned the screen on and unlocked it."
     $ s_name = "Sayori"
