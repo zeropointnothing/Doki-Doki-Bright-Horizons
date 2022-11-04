@@ -1300,6 +1300,7 @@ image monika g2:
             pause 0.2
     repeat
 
+# Defines Characters
 
 define narrator = Character(ctc="ctc", ctc_position="fixed")
 define mc = DynamicCharacter('player', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
@@ -1308,6 +1309,8 @@ define m = DynamicCharacter('m_name', image='monika', what_prefix='"', what_suff
 define n = DynamicCharacter('n_name', image='natsuki', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define y = DynamicCharacter('y_name', image='yuri', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 define ny = Character('Nat & Yuri', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+define zr = Character('Z3R0', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
+
 
 define _dismiss_pause = config.developer
 

@@ -253,7 +253,7 @@ label splashscreen:
         $ persistent.oldversion = config.version
         $ renpy.save_persistent()
 
-    if not persistent.Firstrun_FreshStart:
+    if not persistent.first_run:
         python:
             restore_all_characters()
         $ quick_menu = False
@@ -262,10 +262,12 @@ label splashscreen:
         scene tos
         with Dissolve(1.0)
         pause 1.0
-        "This is a Doki Doki Literature Club mod that is not affiliated with Team Salvato."
-        "It is designed to be played only after the official game has been completed. By playing you agree that you have completed the original game."
-        "You can download official Doki Doki Literature Club files at: http://ddlc.moe"
-        $ persistent.Firstrun_FreshStart = True
+        "This game is not suitable for children or those who are easily disturbed."
+        "Individuals suffering from anxiety or depression may not have a safe experience playing this game. For content warnings, please visit: http://ddlc.moe/warning.html"
+        menu:
+            "By playing Doki Doki Literature Club, you agree that you are at least 13 years of age, and you consent to your exposure of highly disturbing content."
+            "I agree.":
+                pass
         $ persistent.first_run = True
         scene tos2
         with Dissolve(1.5)

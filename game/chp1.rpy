@@ -34,4 +34,23 @@ label chp1:
     show sayori at lhide
     hide sayori
 
-    jump not_fns
+    scene bg park_path with wipeleft_scene
+    "Me and Sayori began to walk down the park's path, happily chatting."
+    mc "Those goodie bags you made for the festival were honestly the best part, Sayori."
+    show sayori 1br at t11 zorder 2
+    s "I'm really happy you think so, [player]!"
+    s 1bo "Wait... What about Natsuki's cupcakes! Those were amazing!"
+    mc "They were, yes. But the little surprise you put in each bag was fun as well."
+    s 1bl "Really, [player]... They were just little bags..."
+    mc "And I'm not allowed to compliment you on that?"
+    show sayori 4bm at h11 zorder 2
+    s "W-wait! That's not what I meant!!"
+    mc "Haha. I'm just messing with you Sayori. I know what you mean. Everything you four did was amazing."
+    s 1bi "Meanie..."
+    mc "I'm {i}sorry.{/i} You're just adorable when you get all flustered."
+    s 1bp "Stoooop!!! You're being meaaaaan!"
+    "I laughed. Sayori clearly didn't notice that she was simply making it worse for herself."
+    "But I had to stop once she started lightly smacking me."
+    mc "Okay, okay, okay! I'll stop!"
+    
+    jump not_fns 
